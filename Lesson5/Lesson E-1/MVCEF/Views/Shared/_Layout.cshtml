@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            jQuery.validator.addMethod('twowords',
+                function (value, element, params) {
+                    // Get element value. Classic genre has value '0'.
+                    var value = $(params[0]).val();
+                    return /^[a-z]+(?:\s[a-z]+)+$/.test(value);
+                });
+
+            jQuery.validator.unobtrusive.adapters.add('twowords',
+                ['element'],
+                function (options) {
+                    //var element = $(options.form).find('select#Genre')[0];
+                    options.rules['twowords'] = [options.element, options.element.value];
+                    options.messages['twowords'] = options.message;
+                });
+        }(jQuery));
+    </script>
+
+</body>
+</html>
