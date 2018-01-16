@@ -1,0 +1,18 @@
+﻿@model List<Activity3D1.Models.Employee>
+<b>This content and below table is coming from partial view</b>
+<table border="1">
+    <tr>
+        <th>Employee No</th>
+        <th>Employee Name</th>
+    </tr>
+    @{
+        foreach (var employee in Model)
+        {
+
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+            </tr>
+        }
+    }
+</table>

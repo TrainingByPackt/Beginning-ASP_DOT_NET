@@ -1,0 +1,25 @@
+﻿@model Activity3C1.Models.Person
+@if (ViewBag.Message != null)
+{
+    <b>@ViewBag.Message</b>
+}
+
+@{ 
+}
+
+@using (Html.BeginForm("ValidateAge", "Home", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>@Html.LabelFor(Model => Model.Name) </td>
+            <td>@Html.TextBoxFor(Model => Model.Name) </td>
+        </tr>
+        <tr>
+            <td>I am older than 18</td>
+            <td>@Html.CheckBox("OlderThan18",  ViewData["OlderThan18"])</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+}
