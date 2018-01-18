@@ -1,0 +1,12 @@
+public class HomeController : Controller
+{
+ // GET: /<controller>/
+ public IActionResult Index()
+ {
+ return Content("Index action method");
+ }
+ public IActionResult Index2()
+ {
+ return Content("Index2 action method");
+ }
+}
