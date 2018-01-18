@@ -1,0 +1,40 @@
+  <script type="text/javascript">
+
+    function validateForm() {
+        var isValidForm = true;
+        var nameValue = document.getElementById("Name").value;
+        var designationValue =
+            document.getElementById("Designation").value;
+        var salaryValue = document.getElementById("Salary").value;
+
+        //Validate the name field
+        if (nameValue == null || nameValue == "") {
+            document.getElementById("validationName").textContent =
+                "Employee Name is required - from client side";
+            isValidForm = false;
+        }
+
+        //validate the designation field
+        if (designationValue == null || designationValue == "") {
+            document.getElementById("validationDesignation").textContent =
+                "Employee Designation is required - from client side";
+            isValidForm = false;
+        }
+
+        //validate the salary field - if it is empty
+        if (salaryValue == null || salaryValue == "") {
+            document.getElementById("validationSalary").textContent =
+                "Employee Salary is required - from client side";
+            isValidForm = false;
+        } else if (Number(salaryValue) == NaN || Number(salaryValue) <= 0.0) {
+            document.getElementById("validationSalary").textContent =
+                "Please enter valid number for salary field - from the client side";
+            isValidForm = false;
+        }
+
+
+        return isValidForm;
+
+    }
+
+</script> 
