@@ -41,6 +41,19 @@ namespace Lesson3.Controllers
             return View(person1);
         }
 
+        [HttpPost]
+        public IActionResult ValidateAge(Person person1)
+        {
+            if (person1.Age >= 18)
+            {
+                ViewBag.Message = "You are eligible to Vote!";
+            }
+            else
+            {
+                ViewBag.Message = "Sorry.You are not old enough to vote!";
+            }
+            return View();
+        }
         public IActionResult AboutUs()
         {
             return View();
