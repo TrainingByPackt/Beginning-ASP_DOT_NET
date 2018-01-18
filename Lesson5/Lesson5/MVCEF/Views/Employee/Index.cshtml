@@ -7,7 +7,7 @@
 
 
 <div>
-    <form asp-controller="Employee" asp-action="Index">
+    <form asp-controller="Employee" asp-action="Index" onsubmit="return validateForm()">
         <table>
             <tr>
                 <td><label asp-for="Name"></label></td>
