@@ -18,12 +18,12 @@ namespace Lesson2.Controllers
         }
         public IActionResult Index2()
         {
-            return View(); // View for this 'Index2' action method 
+            return View(); // View for this 'Index2' action method
         }
 
         public IActionResult Employee()
         {
-            //Sample Model - Usually this comes from database 
+            //Sample Model - Usually this comes from database
             Employee emp1 = new Employee
             {
                 EmployeeId = 1,

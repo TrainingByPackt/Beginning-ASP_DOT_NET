@@ -12,7 +12,7 @@ namespace Lesson6.Controllers
     [Route("Home")]
     public class HomeController : Controller
     {
-        // GET: /<controller>/ 
+        // GET: /<controller>/
         [HttpGet()]
         public IActionResult Index()
         {
@@ -30,8 +30,8 @@ namespace Lesson6.Controllers
             return View();
         }
 
-        [HttpGet("details/{id:int = 123}")]
-        public IActionResult Details2(int id)
+        [HttpGet("details2/{id:int?}")]
+        public IActionResult Details2(int id = 123)
         {
             return View();
         }
