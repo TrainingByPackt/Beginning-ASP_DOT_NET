@@ -5,7 +5,6 @@
 @{
 }
 
-
 <div>
     <form asp-controller="Employee" asp-action="Index">
         <table>
@@ -13,7 +12,7 @@
                 <td><label asp-for="Name"></label></td>
                 <td><input asp-for="Name" /></td>
                 <td>
-                    <span asp-validation-for="Name"
+                    <span id="validationName" asp-validation-for="Name"
                           style="color:red"></span>
                 </td>
             </tr>
@@ -21,7 +20,7 @@
                 <td><label asp-for="Designation"></label> </td>
                 <td><input asp-for="Designation" /></td>
                 <td>
-                    <span
+                    <span id="validationDesignation"
                           asp-validation-for="Designation" style="color:red"></span>
                 </td>
             </tr>
@@ -42,8 +41,8 @@
         </table>
     </form>
 
-
 </div>
+
 
 <br /><br /> <br />
 
