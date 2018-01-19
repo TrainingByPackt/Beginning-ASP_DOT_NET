@@ -1,0 +1,34 @@
+<div>
+    <form action="/" method="post">
+        <table>
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text" data-val="true" data-val-required="Employee Name is required" id="Name" name="Name" value="" /></td>
+                <td>
+                    <span id="validationName" style="color:red" class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Designation">Designation</label> </td>
+                <td><input type="text" data-val="true" data-val-minlength="Minimum length of designation should be 5 characters" data-val-minlength-min="5" data-val-required="Employee Designation is required" id="Designation" name="Designation" value="" /></td>
+                <td>
+                    <span id="validationDesignation" style="color:red" class="field-validation-valid" data-valmsg-for="Designation" data-valmsg-replace="true"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Salary">Salary</label></td>
+                <td><input type="text" data-val="true" data-val-number="The field Salary must be a number." data-val-range="The field Salary must be between 1000 and 9999.99." data-val-range-max="9999.99" data-val-range-min="1000" data-val-required="The Salary field is required." id="Salary" name="Salary" value="0.00"></td>
+                <td>
+                    <span id="validationSalary" style="color:red" class="field-validation-valid" data-valmsg-for="Salary" data-valmsg-replace="true"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="submitbutton"
+                           value="Submit" />
+                </td>
+            </tr>
+        </table>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8NUSvK5PbzpCoL3qhSwrAy1hlkdi2Y0DNrob7_jMXounqnzKcfko8iN8RydP6xSuSsWdiP49fIlGs19rN9GFSNkAdWpIoc9DV9xZoj1e1SdAZyHmS1jXl2ZU5mH2sviInjhdko3b5Y0TMnfSZmkgEVs" /></form>
+
+</div>
