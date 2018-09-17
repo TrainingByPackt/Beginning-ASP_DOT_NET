@@ -1,3 +1,4 @@
+
 # Beginning ASP.NET
 This course offers a tried & tested way to build cross-platform applications. It presents the fundamentals and philosophies of ASP.NET Core. Starting with an overview of the MVC pattern, you'll quickly dive into the aspects that you need to know to get started with ASP. NET. You'll learn about the core architecture of model, view, and control. Finally, build your own shopping cart application, and gain all the skills to develop real-world applications with ASP. NET Core 2.
 
