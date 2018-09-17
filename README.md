@@ -19,7 +19,7 @@ For an optimal student experience, we recommend the following hardware configura
 
 ### Software requirements
 You’ll also need the following software installed in advance:
-* Windows Server 2008 R2 SP1 (and above) or Windows 7 SP 1 (and above)
+* Windows Server 2008 R2 SP1 (and above) or Windows 7 SP1 (and above)
 * Visual Studio Community 2017 IDE
 * Web browser such as Microsoft Edge
 * Packages and frameworks such as NuGet, Bootstrap, and project.json
