@@ -13,21 +13,16 @@ This course offers a tried & tested way to build cross-platform applications. It
 
 ### Hardware requirements
 For an optimal student experience, we recommend the following hardware configuration:
-* **OS**: Ubuntu latest, Mac OS X
-* **Processor**: Intel Core i5 or equivalent
-* **Memory**: 8GB RAM
-* **Storage**: 35 GB available space
-* **GPU**: Titan X
-
+* **Processor**: 3.2 GHz or faster
+* **Memory**: 4 GB of RAM (1.5 GB if running on a virtual machine)
+* **Storage**: 8 GB available space
 
 ### Software requirements
 You’ll also need the following software installed in advance:
-* **Browser**: Google Chrome, Latest Version
-* **Pycharm**: Latest Version
-* **Python**: Version 3.6 or latest
-* **PyTorch**: Version 0.4
-* [Jupyter Notebook ](http://jupyter.org/)
-* AWS/Paperspace/Crestle Account
+* Windows Server 2008 R2 SP1 (and above) or Windows 7 SP 1 (and above)
+* Visual Studio Community 2017 IDE
+* Web browser such as Microsoft Edge
+* Packages and frameworks such as NuGet, Bootstrap, and project.json
 
 
 
