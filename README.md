@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/TrainingByPackt/Beginning-ASP_DOT_NET.svg)](https://github.com/TrainingByPackt/Beginning-ASP_DOT_NET/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/Beginning-ASP_DOT_NET.svg)](https://github.com/TrainingByPackt/Beginning-ASP_DOT_NET/network)
-[![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/Beginning-ASP_DOT_NET.svg)](https://github.com/TrainingByPackt/Beginning-ASP_DOT_NET/stargazers)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]
+[![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/Beginning-ASP_DOT_NET.svg)](https://github.com/TrainingByPackt/Beginning-ASP_DOT_NET/stargazers)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TrainingByPackt/Beginning-ASP_DOT_NET/pulls)
 
 
 
